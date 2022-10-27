@@ -334,7 +334,7 @@ O'zgarishlarni saqlagandan so'ng,terminalda quyidagi buyruqni beramiz:
 ### 32. JavaScript orqali templatega chiqarilgan ma'lumotlarni tilini o'zgartirishni ko'rib chiqamiz
 Buning uchun loyihamiz ichida static nomli papka yaratamiz va uning ichiga __app.js__ nomi bilan javascript faylini yaratib uning ichiga quyidagi kodni yozamiz:
 
-    const msg='Xush kelibsiz,Mehmon'
+    const msg=gettext('Xush kelibsiz,Mehmon')
     document.body.innerHTML+=`<hr><h1>${msg}</h1>`
 
 ### 33. Loyihaning urls.py fayliga qoshimcha kiritamiz
